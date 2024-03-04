@@ -1,0 +1,10 @@
+server:
+  port: 8090
+netty:
+  # 0 - дефолтное поведение
+  boss-threads: 1
+  # 0 - дефолтное поведение
+  worker-threads: 0
+  keep-alive: false
+  backlog: 100
+  max-frame-length-kb: 64
